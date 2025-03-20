@@ -350,10 +350,10 @@ const next = () => {
 
         }
     });
-    if(i>=0&&i<5){
+    if(i>=0&&i<num-1){
         i++;
     }
-    if(i==5){
+    if(i==num-1){
         i--
     }
 
@@ -370,7 +370,7 @@ const next = () => {
             <dijkstraForm @getInputForm="getInput" @getResponse="getResp"  @lujingUpdated="handleLujingUpdated" />
             <!-- 输出表格 -->
             
-            <el-card style="max-width: 450px;border: 1px solid #666;width: 400px;margin-top: 20px;height: 200px;">
+            <el-card style="max-width: 450px;border: 1px solid #666;width: 500px;margin-top: 20px;height: 200px;">
                 <template #header>切换过程/注释
                 
                 </template>
